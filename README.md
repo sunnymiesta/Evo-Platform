@@ -46,9 +46,9 @@ https://github.com/FndNur1Labs/CryptonoteEvo/wiki/Super-Nodes
 
 # Donation For Support
 
-Bitcoin : 1P7ySThfyV4K3da5eQcbm8GWk33ER4DdKi
+Bitcoin[Triv] : 3NuXeqsHnvTrVzjgSWhboJzNanE85SzPes
 
-Ethereum : 0x977e6df4a79a5e8cbd52ae219243b51ec2becf04
+Ethereum[Triv] : 0xa959d36c72b1881c46621e5ab425eae0d548f6cf
 
 Ether Classic : 0x2c9c160fb2cdc15ec5bed0071263dd5d1e124f17
 
