@@ -1,4 +1,4 @@
-# CryptonoteEvoV3-CLI[Beta]
+# Evo-Platform-CLI[Beta]
 Version 3 of CryptonoteEvo. Codename : Lamda Driver
 
 # Requirement
