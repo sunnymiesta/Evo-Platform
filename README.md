@@ -46,28 +46,6 @@ https://github.com/FndNur1Labs/CryptonoteEvo/wiki/Super-Nodes
 
 # Donation For Support
 
-Bitcoin[Triv] : 3NuXeqsHnvTrVzjgSWhboJzNanE85SzPes
-
-Ethereum[Triv] : 0xa959d36c72b1881c46621e5ab425eae0d548f6cf
-
-Ether Classic : 0x2c9c160fb2cdc15ec5bed0071263dd5d1e124f17
-
-Litecoin : LRk34Dr56NrSnHioHuqCP24UjzMVUp8CCo
-
-Dogecoin : DJ1PHZiZvd2jBQUMSuF4uAmxrif2VT1ZFi
-
-Dash : Xvdf7tgjPJBcV8FwSvsrims3KEdVt36zqv
-
-Cardano : DdzFFzCqrhshoxQmdyt588nNpyrz9jArYiVaLBu9rtAHGSdkNC2Q3sKqdoPe3uB7GX2u3cFcq6AGTmQxqwbuk1X9H7Bo5dQAcrvoFjFx
-
-Bitcoin Cash : 1F1ioXrZvsaifcuBDW3f1rDHJssiAkRxxk
-
-Bitcoin Gold : GWc3ssM6TDuA1W3FCfsiQgare1tkCAuQ3F
-
-Bitcoin Diamond : 1553PvXLXQbMXZKEd6HnnsnNC9KXgpGi4z
-
-Waves : 3P9gJLwvaRHKw1gjwE5RWQSj3cojEmzaopg
-
-ZCoin : aHYGwDMpNcHM8eAttddbgVkVy7uNtCvdNV
+https://goo.gl/forms/3NGyhQr3uXiOMa5u1
 
 Main Page : https://github.com/FndNur1Labs/CryptonoteEvo
