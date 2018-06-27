@@ -13,3 +13,6 @@
 [submodule "utils"]
 	path = utils
 	url = https://github.com/Nur1Labs/utils.git
+[submodule "iclass"]
+	path = iclass
+	url = https://github.com/Nur1Labs/iclass.git
