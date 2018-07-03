@@ -9,7 +9,7 @@
 namespace CryptoNote {
 namespace parameters {
 
-const uint64_t DIFFICULTY_TARGET                             = 120; // seconds. 
+const uint64_t DIFFICULTY_TARGET                             = 60; // seconds. 
 const uint64_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 500000000;
 const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 500000000;
 const size_t   CRYPTONOTE_MAX_TX_SIZE                        = 1000000000;
@@ -40,7 +40,7 @@ const uint64_t TAIL_EMISSION_REWARD                          = UINT64_C(10000000
 const uint64_t PRE_BLOCK_REWARD	                             = UINT64_C(84000000000000000); // premine first block
 const uint64_t MINIMUM_FEE                                   = UINT64_C(1000000); // pow(10, 4)
 const uint64_t DEFAULT_DUST_THRESHOLD                        = UINT64_C(100000000); // pow(10, 4)
-const unsigned EMISSION_SPEED_FACTOR 			     = 20;
+const unsigned EMISSION_SPEED_FACTOR 			     = 21;
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
 const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY             = 24 * 60 * 60 / DIFFICULTY_TARGET;
@@ -93,8 +93,8 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 } // parameters
 
-const char     CRYPTONOTE_NAME[]                             = "catalyst";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001c5f5b7d9a43a029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210101c4c306acf575af7873e35b84bb206bee3e72a3f6070e4c08e775d12bec3d5e";
+const char     CRYPTONOTE_NAME[]                             = "adina";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "";
 
 const uint32_t GENESIS_NONCE                                 = 70;
 const uint64_t GENESIS_TIMESTAMP                             = 1529201466;
@@ -111,8 +111,8 @@ const size_t   BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT        = 10000; // by defa
 const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            = 128; // by default, blocks count in blocks downloading
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         = 1000;
 
-const int      P2P_DEFAULT_PORT                              = 5290;
-const int      RPC_DEFAULT_PORT                              = 5295;
+const int      P2P_DEFAULT_PORT                              = 27015;
+const int      RPC_DEFAULT_PORT                              = 27016;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                = 1000;
 const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 = 5000;
@@ -130,8 +130,11 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000; // 5 second
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "FF9507CA55455F37A3B783EE2C5123B8B6A34A0C5CAAE050922C6254161480C1";
 
 const std::initializer_list<const char*> SEED_NODES = {
-  "seed1.catalyst.cash:5290",
-  "seed2.catalyst.cash:5290",
+    "144.217.150.133:27015",
+    "192.48.88.88:27015",
+    "node1.adina.host:27015",
+    "node2.adina.host:27015",
+    "node3.adina.host:27015",
   //"seed3.catalyst.cash:4090",
 };
 
