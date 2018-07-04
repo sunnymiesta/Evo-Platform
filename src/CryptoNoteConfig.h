@@ -40,7 +40,7 @@ const uint64_t TAIL_EMISSION_REWARD                          = UINT64_C(10000000
 const uint64_t PRE_BLOCK_REWARD	                             = UINT64_C(84000000000000000); // premine first block
 const uint64_t MINIMUM_FEE                                   = UINT64_C(1000000); // pow(10, 4)
 const uint64_t DEFAULT_DUST_THRESHOLD                        = UINT64_C(100000000); // pow(10, 4)
-const unsigned EMISSION_SPEED_FACTOR 			     = 24;
+const unsigned EMISSION_SPEED_FACTOR 			     = 23;
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
 const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY             = 24 * 60 * 60 / DIFFICULTY_TARGET;
