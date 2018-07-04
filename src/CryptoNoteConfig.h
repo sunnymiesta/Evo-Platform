@@ -13,7 +13,7 @@ const uint64_t DIFFICULTY_TARGET                             = 60; // seconds.
 const uint64_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 500000000;
 const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 500000000;
 const size_t   CRYPTONOTE_MAX_TX_SIZE                        = 1000000000;
-const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 9524; // addresses start with "Xa"
+const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 0x60ca; // addresses start with "Xa"
 const size_t   CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW          = 10; 
 const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT            = DIFFICULTY_TARGET * 3;
 const uint64_t CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE           = 10;
@@ -40,7 +40,7 @@ const uint64_t TAIL_EMISSION_REWARD                          = UINT64_C(10000000
 const uint64_t PRE_BLOCK_REWARD	                             = UINT64_C(84000000000000000); // premine first block
 const uint64_t MINIMUM_FEE                                   = UINT64_C(1000000); // pow(10, 4)
 const uint64_t DEFAULT_DUST_THRESHOLD                        = UINT64_C(100000000); // pow(10, 4)
-const unsigned EMISSION_SPEED_FACTOR 			     = 21;
+const unsigned EMISSION_SPEED_FACTOR 			     = 24;
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
 const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY             = 24 * 60 * 60 / DIFFICULTY_TARGET;
