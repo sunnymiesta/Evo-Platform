@@ -130,13 +130,11 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000; // 5 second
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "FF9507CA55455F37A3B783EE2C5123B8B6A34A0C5CAAE050922C6254161480C1";
 
 const std::initializer_list<const char*> SEED_NODES = {
-    "192.168.2.44:27015",
-    "192.168.2.45:27015",
-   // "144.217.150.133:27015",
-   // "192.48.88.88:27015",
-   // "node1.adina.host:27015",
-   // "node2.adina.host:27015",
-   // "node3.adina.host:27015",
+    "144.217.150.133:27015",
+    "192.48.88.88:27015",
+    "node1.adina.host:27015",
+    "node2.adina.host:27015",
+    "node3.adina.host:27015",
   //"seed3.catalyst.cash:4090",
 };
 
